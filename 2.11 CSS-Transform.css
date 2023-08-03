@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    margin: 20px;
+}
+.container{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid blue;
+    transform: scale(1.8);
+    transform: translate(200px);
+    transform: rotate(-30deg);
+    transform: skew(35deg);
+    transition: 2s ease-in-out;
+    border-radius: 50px;
+    transform: skewY(35deg);
+}
+    
+   
+
+.box{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50px;
+    border: 3px solid blue;
+    transform: scale(1.8);
+    transform: translate(200px);
+    transform: rotate(-30deg);
+    transform: skew(35deg);
+    transition: 2s ease-in-out;
+
+}
+.box1{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50px;
+    border: 3px solid blue;
+    transform: scale(1.8);
+    transform: translate(200px);
+    transform: rotate(-30deg);
+    transform: skew(35deg);
+    transition: 2s ease-in-out;
+}
+
+.box:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 1s ease-in-out;
+    /* transform: scale(1.8); */
+    transform: translateY(200px);
+    /* transform: rotate(-30deg); */
+    transform: rotateY(75deg);
+    transform: skewY(35deg);
+    border: 5px solid rgb(114, 114, 212);
+    background-color: yellowgreen;
+    border-radius: 20px;
+}
+.box1:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    transition: 1s ease-in-out;
+    /* transform: scale(1.8); */
+    transform: translateY(200px);
+    /* transform: rotate(-30deg); */
+    transform: rotateY(75deg);
+    transform: skewY(-35deg);
+    border: 5px solid rgb(114, 114, 212);
+    background-color: yellowgreen;
+    border-radius: 20px;
+}
+.container:hover{
+    transform: rotateY(75deg);
+    transform: skewY(-35deg);
+    border: 5px solid rgb(114, 114, 212);
+    background-color: yellowgreen;
+    border-radius: 20px;
+    border-radius: 30px
+}
+/* rotate = fırlatmaq  mes: rotate(45deg) */
+/* scale = boyumek  mes: scale(1.8)*/
+/* translate = dasımaq mes: translate(100px, 200px) */
+/* Mes:  translateX(200px), translateY(100px) */
+/* skew = eyirmek mes:skew(359deg) */
